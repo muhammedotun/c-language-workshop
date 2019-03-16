@@ -54,7 +54,7 @@ int main()
 
         case 7: 
             printf("\n");
-            printf("Sistemden cikis yaptiniz");
+            printf("Sistemden cikis yaptiniz\n");
             return 0;
 
         default:
