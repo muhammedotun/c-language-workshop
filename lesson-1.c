@@ -15,8 +15,7 @@ int main()
   while(1){
     
 
-        printf("Menuden seciniz:  \n 1.Dikdortgen Cizme \n 2.Permutasyon \n 3.Kombinasyon 
-        \n 4.Fibonacci \n 5.Upper-Lower Case \n 6.Not Sistemi \n 7.Cikis \n");
+        printf("Menuden seciniz:  \n 1.Dikdortgen Cizme \n 2.Permutasyon \n 3.Kombinasyon \n 4.Fibonacci \n 5.Upper-Lower Case \n 6.Not Sistemi \n 7.Cikis \n");
 
         scanf("%d",&secim);
 
