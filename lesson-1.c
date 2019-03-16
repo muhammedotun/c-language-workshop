@@ -8,7 +8,7 @@ void Fibonacci();
 void UpperCase();
 void NotSistemi();
 
-char secim = 0;
+char secim = '0';
 
 int main()
 {
