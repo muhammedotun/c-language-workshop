@@ -11,48 +11,48 @@ void NotSistemi();
 int secim = 0;
 
 int main()
-{   
+{
   while(1){
-    
+
 
         printf("Menuden seciniz:  \n 1.Dikdortgen Cizme \n 2.Permutasyon \n 3.Kombinasyon \n 4.Fibonacci \n 5.Upper-Lower Case \n 6.Not Sistemi \n 7.Cikis \n");
 
-        scanf("%d",&secim);
+        scanf(" %c",&secim);
 
         switch(secim)
         {
-        case 1:
+        case '1':
             printf("\n");
             DikdortgenCiz();
             printf("\n");
             break;
-        case 2:
+        case '2':
             printf("\n");
             Permutasyon(6,4);
             printf("\n");
             break;
-        case 3:
+        case '3':
             printf("\n");
             Kombinasyon();
             printf("\n");
             break;
-        case 4:
+        case '4':
             printf("\n");
             Fibonacci();
             printf("\n");
             break;
-        case 5:
+        case '5':
             printf("\n");
             UpperCase();
             printf("\n");
             break;
-        case 6:
+        case '6':
             printf("\n");
             NotSistemi();
             printf("\n");
             break;
 
-        case 7: 
+        case '7':
             printf("\n");
             printf("Sistemden cikis yaptiniz\n");
             return 0;
@@ -67,7 +67,7 @@ int main()
 
 
 }
-    
+
 
 
 void DikdortgenCiz()
@@ -113,7 +113,7 @@ void Kombinasyon()
 }
 
 void Fibonacci()
-{   
+{
     int i, n, t1 = 0, t2 = 1, nextTerm;
 
     printf("Kaç adet sayı yazılacağını seçin: ");
